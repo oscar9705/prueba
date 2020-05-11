@@ -19,7 +19,7 @@ definitions:
               script:
               - pipe: sonarsource/sonarcloud-quality-gate:0.1.3
 
-pipelines:                 # More info here: https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html
+pipelines:                 #More info here: https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html
   branches:
     master:
       - step: *build-test-sonarcloud
