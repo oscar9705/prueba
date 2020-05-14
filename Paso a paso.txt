@@ -1,0 +1,12 @@
+git init 
+git status 
+git add .
+git commit -m "prueba13"
+git git remote add origin https://bitbucket.org/oscar9705/prueba.git
+_____________por si sale el error
+git fetch origin master:tmp
+git rebase tmp
+git push -u origin master
+
+
+
