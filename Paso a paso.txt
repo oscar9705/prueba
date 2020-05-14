@@ -1,12 +1,14 @@
-git init 
-git status 
-git add .
-git commit -m "prueba13"
-git git remote add origin https://bitbucket.org/oscar9705/prueba.git
+0. Clonado "Link de su repo bitbucket"
+1. git init "Iniciar funcion repositorio"
+git status "Ver los cambios realizados en el proyecto"
+git add . "Añadir todo lo modificado previamente al repo"
+4. git commit -m "<Nombre>" "Guardar las ediciones"
+2. git remote add origin https://bitbucket.org/oscar9705/prueba.git
+3. git remote -v "Mirar existencia de ruta"
 _____________por si sale el error
 git fetch origin master:tmp
 git rebase tmp
-git push -u origin master
+5. git push -u origin master "Subir las ediciones (Pediran credenciales)"
 
 
 
